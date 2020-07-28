@@ -1,0 +1,32 @@
+{
+  "name": "calendar-monthly",
+  "version": "1.0.0",
+  "description": "Tutorial for learning a few calendar tricks",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "webpack-dev-server --open",
+    "build": "webpack",
+    "watch": "webpack --watch"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-core": "^6.26.3",
+    "css-loader": "^4.0.0",
+    "lodash": "^4.17.19",
+    "style-loader": "^1.2.1",
+    "webpack-dev-server": "^3.11.0",
+    "html-webpack-plugin": "^4.3.0",
+    "babel-preset-env": "^1.7.0"
+  },
+  "dependencies": {
+    "babel-preset-env": "^1.7.0",
+    "dayjs": "^1.8.30",
+    "html-webpack-plugin": "^4.3.0",
+    "webpack": "^4.43.0",
+    "webpack-cli": "^3.3.12"
+  }
+}
